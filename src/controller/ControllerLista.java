@@ -40,35 +40,7 @@ public class ControllerLista implements Initializable{
 	
 	@FXML
 	private TableColumn<Operador, Float> colunaSalario;
-	
 
-	
-	/*public void initialize() {
-		colunaID.setCellValueFactory( new PropertyValueFactory<>("id") );
-		colunaNome.setCellValueFactory( new PropertyValueFactory<>("nome") );
-		colunaCPF.setCellValueFactory( new PropertyValueFactory<>("cpf") );
-		colunaSalario.setCellValueFactory( new PropertyValueFactory<>("salario") );
-		
-		
-		DaoOperador daoOperador = new DaoOperador();
-		
-		try {
-			List<Operador> users = daoOperador.listar();
-			
-			tabela.setItems( FXCollections.observableArrayList( users ) );
-		
-		} catch (SQLException e) {
-			
-			Alert a = new Alert(AlertType.ERROR);
-			a.setHeaderText("Atenção!");
-			a.setContentText("Erro ao carregar usuários: " + e.getMessage());
-			
-			a.show();
-			
-		}
-		
-		
-	}*/
 
 
 
